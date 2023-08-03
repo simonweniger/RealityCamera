@@ -141,10 +141,15 @@ import RealityKit
 
     // MARK: - FPS mode variables
 
-    /// The speed at which the camera moves when incrementing forward via the keyboard
-    public var forward_speed: Float
-    /// The speed at which the camera moves when rotating using the keyboard
-    public var turn_speed: Float
+	/// The speed at which the camera moves when incrementing forward via the keyboard
+	public var forward_speed: Float
+	/// The speed at which the camera moves when strafing using the keyboard
+	public var strafe_speed: Float
+	/// The speed at which the camera rotates using the keyboard
+	public var turn_speed: Float
+	/// The speed at which the camera looks up or down using the keyboard
+	public var look_speed: Float
+	
     private var dragstart_transform: matrix_float4x4
     private let sixtydegrees = Float.pi / 3
 
@@ -192,8 +197,14 @@ import RealityKit
         magnify_start = radius
 
         // FPS mode
-        forward_speed = 0.05
-        turn_speed = 0.01
+        //forward_speed = 0.05
+        //turn_speed = 0.01
+		
+		// FPS mode
+		forward_speed = 0.05
+		strafe_speed = 0.05
+		turn_speed = 0.01
+		look_speed = 0.01
 
         // Not mode specific
         cameraAnchor = AnchorEntity(world: .zero)
@@ -343,22 +354,23 @@ import RealityKit
                 inclinationAngle = -Float.pi / 2
             }
             updateCamera()
-        case .firstperson:
-            // print("delta X is \(deltaX)")
-            // print("delta Y is \(deltaY)")
-            // print("Divided by frame X: \(deltaX/Float(self.frame.width))")
-            // print("Divided by frame Y: \(deltaY/Float(self.frame.height))")
+		case .firstperson:
+			let proportion_view_vertical_drag = deltaY / Float(frame.height)
+			let proportion_view_horizontal_drag = deltaX / Float(frame.width)
 
-            let proportion_view_vertical_drag = deltaY / Float(frame.height)
-            let proportion_view_horizontal_drag = deltaX / Float(frame.width)
+			let look_up_transform = rotationAroundXAxisTransform(radians: -look_speed * proportion_view_vertical_drag)
+			let left_turn_transform = rotationAroundYAxisTransform(radians: look_speed * proportion_view_horizontal_drag)
+			let combined_transform = dragstart_transform * left_turn_transform
 
-            let look_up_transform = rotationAroundXAxisTransform(
-                radians: -sixtydegrees * proportion_view_vertical_drag)
-            let left_turn_transform = rotationAroundYAxisTransform(
-                radians: sixtydegrees * proportion_view_horizontal_drag)
-            let combined_transform = dragstart_transform * look_up_transform * left_turn_transform
-            cameraAnchor.transform = Transform(matrix: combined_transform)
-        }
+			// Update the camera's orientation using quaternions
+			cameraAnchor.orientation = simd_quatf(combined_transform)
+
+			// Move the camera's position forward or backward based on the current orientation
+			cameraAnchor.position += headingVector() * forward_speed * deltaY
+
+			// Move the camera's position left or right based on the current orientation
+			cameraAnchor.position += rightVector() * strafe_speed * deltaX
+		}
     }
 
     #if os(iOS)
