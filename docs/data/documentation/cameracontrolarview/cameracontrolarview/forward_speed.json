@@ -1,0 +1,248 @@
+{
+  "abstract" : [
+    {
+      "text" : "The speed at which the camera moves when incrementing forward via the keyboard",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/forward_speed"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19RealityCameraAAC13forward_speedSfvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "forward_speed"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sf",
+        "text" : "Float"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "forward_speed"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "forward_speed"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sf",
+              "text" : "Float"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/camera_transform"
+      ],
+      "title" : "Updating the Camera Using First Person Mode"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/RealityCamera\/forward_speed"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/camera_transform": {
+  "abstract" : [
+    {
+      "text" : "The homogenous transform that represents the camera’s location and rotation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "camera_transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@matrix_float4x4",
+      "text" : "matrix_float4x4"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/camera_transform",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "camera_transform",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/camera_transform"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/forward_speed": {
+  "abstract" : [
+    {
+      "text" : "The speed at which the camera moves when incrementing forward via the keyboard",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forward_speed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/forward_speed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forward_speed",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/forward_speed"
+}
+}
+}

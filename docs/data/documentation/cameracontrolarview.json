@@ -1,0 +1,298 @@
+{
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "RealityCamera",
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "RealityCamera"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The package provides an ",
+              "type" : "text"
+            },
+            {
+              "code" : "ARView",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " subclass that you can use within AppKit, or with SwiftUI through a wrapping representable view.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "RealityKit includes an ",
+              "type" : "text"
+            },
+            {
+              "code" : "ARView",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " that functions on macOS, but in a limited fashion.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The subclassed ARView provides controls to move the camera within the RealityKit scene with a mouse, trackpad and\/or keyboard.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The wrapping SwiftUI view is crafted to allow you to create an instance of the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " externally and provide it to the view.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The following example view illustrates creating a view so that you can also access the underlying view’s properties to manipulate the view:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "struct ExampleARContentView: View {",
+            "",
+            "    @StateObject var arview: RealityCamera = {",
+            "        let arView = RealityCamera(frame: .zero)",
+            "",
+            "        \/\/ Set ARView debug options",
+            "        arView.debugOptions = [",
+            "            .showStatistics,",
+            "        ]",
+            "",
+            "        \/\/ You can provide additional configuration",
+            "        \/\/ or constructing your rendering view.",
+            "        \/\/ If your project includes an experience",
+            "        \/\/ crafted with Reality Composer, you can",
+            "        \/\/ load it:",
+            "        \/\/",
+            "        \/\/ let boxAnchor = try! Experience.loadBox()",
+            "        \/\/ arView.scene.anchors.append(boxAnchor)",
+            "",
+            "        return arView",
+            "    }()",
+            "",
+            "    var body: some View {",
+            "        ARViewContainer(cameraARView: arview)",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera"
+      ],
+      "title" : "ARView for macOS or iOS"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityKitView"
+      ],
+      "title" : "SwiftUI Representable Views"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer": {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI representable view that wraps an underlying augmented reality view with camera controls instance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ARViewContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityKitView": {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI augmented reality view for macOS or iOS that optionally connects a closure you provide to Scene events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityKitView"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityKitView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityKitView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityKitView",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/realitykitview"
+}
+}
+}

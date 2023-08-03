@@ -1,0 +1,237 @@
+{
+  "abstract" : [
+    {
+      "text" : "The wrapped ARView with camera controls enabled.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/cameraARView"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19RealityCamera0C9ContainerV06cameraC0A2ACvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "cameraARView"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+        "text" : "RealityCamera"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "cameraARView"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "cameraARView"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+              "text" : "RealityCamera"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/arviewcontainer\/cameraarview"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer": {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI representable view that wraps an underlying augmented reality view with camera controls instance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ARViewContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/cameraARView": {
+  "abstract" : [
+    {
+      "text" : "The wrapped ARView with camera controls enabled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cameraARView"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/cameraARView",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cameraARView",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/cameraarview"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+}
+}
+}

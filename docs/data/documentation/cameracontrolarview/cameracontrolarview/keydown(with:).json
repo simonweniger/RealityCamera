@@ -1,0 +1,416 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "ARView.keyDown(with:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyDown(with:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@RealityCamera@objc(cs)RealityCamera(im)keyDown:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "keyDown"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "with"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSEvent",
+        "text" : "NSEvent"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "keyDown(with:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "dynamic"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "keyDown"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "with"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "event"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)NSEvent",
+              "text" : "NSEvent"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDown(with:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDragged(with:)"
+      ],
+      "title" : "Overridden Methods to Provide Controls"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/RealityCamera\/keydown(with:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/keyDown(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keyDown"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyDown(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keyDown(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/keydown(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/magnify(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "magnify"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "magnify(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/mouseDown(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mouseDown"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDown(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mouseDown(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/mousedown(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/mouseDragged(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mouseDragged"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDragged(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mouseDragged(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/mousedragged(with:)"
+}
+}
+}

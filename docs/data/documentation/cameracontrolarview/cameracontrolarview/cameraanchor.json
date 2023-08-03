@@ -1,0 +1,277 @@
+{
+  "abstract" : [
+    {
+      "text" : "A reference to the camera anchor entity for moving, or reading the location values, for the camera.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/cameraAnchor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19RealityCameraAAC12cameraAnchor17RealityFoundation0E6EntityCvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "cameraAnchor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:17RealityFoundation12AnchorEntityC",
+        "text" : "AnchorEntity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "cameraAnchor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "cameraAnchor"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:17RealityFoundation12AnchorEntityC",
+              "text" : "AnchorEntity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/objectWillChange"
+      ],
+      "title" : "Inspecting the View"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/RealityCamera\/cameraanchor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/cameraAnchor": {
+  "abstract" : [
+    {
+      "text" : "A reference to the camera anchor entity for moving, or reading the location values, for the camera.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cameraAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17RealityFoundation12AnchorEntityC",
+      "text" : "AnchorEntity"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/cameraAnchor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cameraAnchor",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/cameraanchor"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/objectWillChange": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "ObjectWillChangePublisher",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " is ",
+        "type" : "text"
+      },
+      {
+        "code" : "ObservableObjectPublisher",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "objectWillChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine25ObservableObjectPublisherC",
+      "text" : "ObservableObjectPublisher"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/objectWillChange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "objectWillChange",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/objectwillchange"
+}
+}
+}

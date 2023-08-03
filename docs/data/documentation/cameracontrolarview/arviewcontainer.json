@@ -1,0 +1,626 @@
+{
+  "abstract" : [
+    {
+      "text" : "A SwiftUI representable view that wraps an underlying augmented reality view with camera controls instance.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:19RealityCamera0C9ContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ARViewContainer"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ARViewContainer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ARViewContainer"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ARViewContainer"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Create an ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " externally and hand it into the container so that you can interact with the",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "view controls, or the underlying scene, from within SwiftUI.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/7SwiftUI19NSViewRepresentableP",
+        "doc:\/\/RealityCamera\/7SwiftUI4ViewP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityKitView"
+      ],
+      "title" : "SwiftUI Representable Views"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/init(cameraARView:)"
+      ],
+      "title" : "Creating an AR View Container"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/cameraARView"
+      ],
+      "title" : "Inspecting the View Container"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/NSViewType",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/makeCoordinator()",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/makeNSView(context:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/updateNSView(_:context:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/ARViewCoordinator"
+      ],
+      "title" : "View Coordinator Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/NSViewRepresentable-Implementations",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/View-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/arviewcontainer"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/7SwiftUI19NSViewRepresentableP": {
+  "identifier" : "doc:\/\/RealityCamera\/7SwiftUI19NSViewRepresentableP",
+  "title" : "SwiftUI.NSViewRepresentable",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/7SwiftUI4ViewP": {
+  "identifier" : "doc:\/\/RealityCamera\/7SwiftUI4ViewP",
+  "title" : "SwiftUI.View",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer": {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI representable view that wraps an underlying augmented reality view with camera controls instance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ARViewContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ARViewContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/ARViewCoordinator": {
+  "abstract" : [
+    {
+      "text" : "The coordinator object that facilitates to and from the wrapped view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ARViewCoordinator"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/ARViewCoordinator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ARViewCoordinator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ARViewContainer.ARViewCoordinator",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/arviewcoordinator"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/NSViewRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/NSViewRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "NSViewRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/nsviewrepresentable-implementations"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/NSViewType": {
+  "abstract" : [
+    {
+      "text" : "The type of view this container wraps.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NSViewType"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/NSViewType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NSViewType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ARViewContainer.NSViewType",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/nsviewtype"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/View-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/View-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "View Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/view-implementations"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/cameraARView": {
+  "abstract" : [
+    {
+      "text" : "The wrapped ARView with camera controls enabled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cameraARView"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/cameraARView",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cameraARView",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/cameraarview"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/init(cameraARView:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new SwiftUI view that wraps and displays an augmented reality view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "cameraARView"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+      "text" : "RealityCamera"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/init(cameraARView:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(cameraARView:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/init(cameraarview:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/makeCoordinator()": {
+  "abstract" : [
+    {
+      "text" : "Creates a coordinator to establish the view and to pass updates to and from the SwiftUI context hosting the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeCoordinator"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19RealityCamera0C9ContainerV",
+      "text" : "ARViewContainer"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19RealityCamera0C9ContainerV0C11CoordinatorC",
+      "text" : "ARViewCoordinator"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/makeCoordinator()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeCoordinator()",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/makecoordinator()"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/makeNSView(context:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeNSView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19RealityCamera0C9ContainerV",
+      "text" : "ARViewContainer"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI19NSViewRepresentableP7Contexta",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityKit@objc(cs)ARView",
+      "text" : "ARView"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/makeNSView(context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeNSView(context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/makensview(context:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/ARViewContainer/updateNSView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Updates the wrapped AR view with state information from SwiftUI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateNSView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityKit@objc(cs)ARView",
+      "text" : "ARView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19RealityCamera0C9ContainerV",
+      "text" : "ARViewContainer"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI19NSViewRepresentableP7Contexta",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/ARViewContainer\/updateNSView(_:context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateNSView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/arviewcontainer\/updatensview(_:context:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityKitView": {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI augmented reality view for macOS or iOS that optionally connects a closure you provide to Scene events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityKitView"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityKitView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityKitView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityKitView",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/realitykitview"
+}
+}
+}

@@ -1,0 +1,1506 @@
+{
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RealityCamera"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "RealityCamera"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RealityCamera"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "RealityCamera"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RealityCamera"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Set the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/motionMode-swift.property",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " to either:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/arcball",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " for rotating around a specific point.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/firstperson",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " for moving freely within the environment.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The default motion mode is ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/arcball",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When used on iOS, a pinch gesture is automatically registered for interaction.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Additional properties control the target location, the camera’s location, or the speed of movement within the environment.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/@M@RealityKit@objc(cs)ARView"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/objc(pl)NSAccessibilityElement",
+        "doc:\/\/RealityCamera\/objc(pl)NSAccessibility",
+        "doc:\/\/RealityCamera\/objc(pl)NSAnimatablePropertyContainer",
+        "doc:\/\/RealityCamera\/objc(pl)NSAppearanceCustomization",
+        "doc:\/\/RealityCamera\/objc(pl)NSDraggingDestination",
+        "doc:\/\/RealityCamera\/objc(pl)NSStandardKeyBindingResponding",
+        "doc:\/\/RealityCamera\/objc(pl)NSTouchBarProvider",
+        "doc:\/\/RealityCamera\/objc(pl)NSUserActivityRestoring",
+        "doc:\/\/RealityCamera\/objc(pl)NSUserInterfaceItemIdentification",
+        "doc:\/\/RealityCamera\/7Combine16ObservableObjectP",
+        "doc:\/\/RealityCamera\/objc(pl)NSCoding",
+        "doc:\/\/RealityCamera\/objc(pl)NSObject",
+        "doc:\/\/RealityCamera\/s7CVarArgP",
+        "doc:\/\/RealityCamera\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/RealityCamera\/s23CustomStringConvertibleP",
+        "doc:\/\/RealityCamera\/SQ",
+        "doc:\/\/RealityCamera\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/init(frame:)"
+      ],
+      "title" : "Creating a Camera Controlled AR View"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/cameraAnchor",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/objectWillChange"
+      ],
+      "title" : "Inspecting the View"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/motionMode-swift.property",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/!=(_:_:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/arcball",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/firstperson",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/hash(into:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/hashValue",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/dragspeed",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyspeed",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/turn_speed"
+      ],
+      "title" : "Inspecting the Camera Control Mode"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/inclinationAngle",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/rotationAngle",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/radius",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/arcballTarget"
+      ],
+      "title" : "Updating the Camera Using ArcBall Mode"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/camera_transform",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/forward_speed"
+      ],
+      "title" : "Updating the Camera Using First Person Mode"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyDown(with:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDown(with:)",
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDragged(with:)"
+      ],
+      "title" : "Overridden Methods to Provide Controls"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/ObservableObject-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/RealityCamera\/RealityCamera"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://RealityCamera/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/RealityCamera\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/@M@RealityKit@objc(cs)ARView": {
+  "identifier" : "doc:\/\/RealityCamera\/@M@RealityKit@objc(cs)ARView",
+  "title" : "RealityKit.ARView",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/SH": {
+  "identifier" : "doc:\/\/RealityCamera\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/SQ": {
+  "identifier" : "doc:\/\/RealityCamera\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/documentation/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An ARView with camera control and SwiftUI wrappers to use RealityKit with macOS.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera": {
+  "abstract" : [
+    {
+      "text" : "An augmented reality view for macOS or iOS that provides keyboard, trackpad, and mouse movement controls for the camera within the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RealityCamera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "The mode of camera motion within the augmented reality scene.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MotionMode"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MotionMode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RealityCamera.MotionMode",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum\/!=(_:_:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum/arcball": {
+  "abstract" : [
+    {
+      "text" : "Rotate around a target location, effectively orbiting and keeping the camera trained on it.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "arcball"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/arcball",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RealityCamera.MotionMode.arcball",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum\/arcball"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum/firstperson": {
+  "abstract" : [
+    {
+      "text" : "Free motion within the AR scene, not locked to a location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "firstperson"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/firstperson",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RealityCamera.MotionMode.firstperson",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum\/firstperson"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " and ",
+        "type" : "text"
+      },
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum\/hash(into:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/MotionMode-swift.enum/hashValue": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " and ",
+        "type" : "text"
+      },
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hashValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/MotionMode-swift.enum\/hashValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hashValue",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.enum\/hashvalue"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/ObservableObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/ObservableObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ObservableObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/observableobject-implementations"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/arcballTarget": {
+  "abstract" : [
+    {
+      "text" : "The target for the camera when in arcball mode.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "arcballTarget"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@simd_float3",
+      "text" : "simd_float3"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/arcballTarget",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "arcballTarget",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/arcballtarget"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/cameraAnchor": {
+  "abstract" : [
+    {
+      "text" : "A reference to the camera anchor entity for moving, or reading the location values, for the camera.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cameraAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17RealityFoundation12AnchorEntityC",
+      "text" : "AnchorEntity"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/cameraAnchor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cameraAnchor",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/cameraanchor"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/camera_transform": {
+  "abstract" : [
+    {
+      "text" : "The homogenous transform that represents the camera’s location and rotation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "camera_transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@matrix_float4x4",
+      "text" : "matrix_float4x4"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/camera_transform",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "camera_transform",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/camera_transform"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/dragspeed": {
+  "abstract" : [
+    {
+      "text" : "The speed at which drag operations map percentage of movement within the view to rotational or positional updates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dragspeed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/dragspeed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dragspeed",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/dragspeed"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/forward_speed": {
+  "abstract" : [
+    {
+      "text" : "The speed at which the camera moves when incrementing forward via the keyboard",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forward_speed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/forward_speed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forward_speed",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/forward_speed"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/inclinationAngle": {
+  "abstract" : [
+    {
+      "text" : "The angle of inclination of the camera when in arcball mode.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "inclinationAngle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/inclinationAngle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "inclinationAngle",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/inclinationangle"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/init(frame:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new AR View with the camera controlled by mouse, keyboard, and\/or the trackpad.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "frame"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGRect",
+      "text" : "CGRect"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/init(frame:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(frame:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/init(frame:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/keyDown(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keyDown"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyDown(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keyDown(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/keydown(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/keyspeed": {
+  "abstract" : [
+    {
+      "text" : "The speed at which keypresses change the angles of inclination or rotation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keyspeed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/keyspeed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keyspeed",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/keyspeed"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/magnify(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "magnify"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "magnify(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/magnify(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/motionMode-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The mode in which the camera is controlled by keypresses and\/or mouse and gesture movements.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "motionMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@RealityCamera@objc(cs)RealityCamera",
+      "text" : "RealityCamera"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:19RealityCameraAAC10MotionModeO",
+      "text" : "MotionMode"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/motionMode-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "motionMode",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/motionmode-swift.property"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/mouseDown(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mouseDown"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDown(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mouseDown(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/mousedown(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/mouseDragged(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mouseDragged"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSEvent",
+      "text" : "NSEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/mouseDragged(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mouseDragged(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/mousedragged(with:)"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/objectWillChange": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "ObjectWillChangePublisher",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " is ",
+        "type" : "text"
+      },
+      {
+        "code" : "ObservableObjectPublisher",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "objectWillChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine25ObservableObjectPublisherC",
+      "text" : "ObservableObjectPublisher"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/objectWillChange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "objectWillChange",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/objectwillchange"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/radius": {
+  "abstract" : [
+    {
+      "text" : "The camera’s orbital distance from the target when in arcball mode.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "radius"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/radius",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "radius",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/radius"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/rotationAngle": {
+  "abstract" : [
+    {
+      "text" : "The angle of rotation of the camera when in arcball mode.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rotationAngle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/rotationAngle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rotationAngle",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/rotationangle"
+},
+"doc://RealityCamera/documentation/RealityCamera/RealityCamera/turn_speed": {
+  "abstract" : [
+    {
+      "text" : "The speed at which the camera moves when rotating using the keyboard",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "turn_speed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/RealityCamera\/documentation\/RealityCamera\/RealityCamera\/turn_speed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "turn_speed",
+  "type" : "topic",
+  "url" : "\/documentation\/RealityCamera\/RealityCamera\/turn_speed"
+},
+"doc://RealityCamera/objc(pl)NSAccessibility": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSAccessibility",
+  "title" : "AppKit.NSAccessibilityProtocol",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSAccessibilityElement": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSAccessibilityElement",
+  "title" : "AppKit.NSAccessibilityElementProtocol",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSAnimatablePropertyContainer": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSAnimatablePropertyContainer",
+  "title" : "AppKit.NSAnimatablePropertyContainer",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSAppearanceCustomization": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSAppearanceCustomization",
+  "title" : "AppKit.NSAppearanceCustomization",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSCoding",
+  "title" : "Foundation.NSCoding",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSDraggingDestination": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSDraggingDestination",
+  "title" : "AppKit.NSDraggingDestination",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSStandardKeyBindingResponding": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSStandardKeyBindingResponding",
+  "title" : "AppKit.NSStandardKeyBindingResponding",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSTouchBarProvider": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSTouchBarProvider",
+  "title" : "AppKit.NSTouchBarProvider",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSUserActivityRestoring": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSUserActivityRestoring",
+  "title" : "AppKit.NSUserActivityRestoring",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/objc(pl)NSUserInterfaceItemIdentification": {
+  "identifier" : "doc:\/\/RealityCamera\/objc(pl)NSUserInterfaceItemIdentification",
+  "title" : "AppKit.NSUserInterfaceItemIdentification",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/RealityCamera\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/RealityCamera\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://RealityCamera/s7CVarArgP": {
+  "identifier" : "doc:\/\/RealityCamera\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}
